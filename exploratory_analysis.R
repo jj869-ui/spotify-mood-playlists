@@ -173,8 +173,7 @@ ggsave(
 )
 
 
-
-
+readr::write_csv(songs_clean, "spotify_songs_clean.csv")
 
 
 
